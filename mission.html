@@ -5,14 +5,16 @@
   <meta charset="UTF-8">
   <meta name="description" content="SocialTechが目指す5つの目標（S2DGs）を紹介します">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="assets/stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='text/javascript' src='assets/js/custom.js' defer></script>
 </head>
 
 <body>
   <!-- ヘッダー -->
   <header>
     <!-- ロゴ -->
-    <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"></a>
+    <a href="index.html" id="logo"><img src="assets/images/logo.png" alt="トップページに戻る"></a>
 
     <!-- PC用ナビゲーション -->
     <nav id="nav-pc">
@@ -25,12 +27,12 @@
     </nav>
 
     <!-- スマホ用メニューボタン -->
-    <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+    <img id="menu-sp" src="assets/images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
 
     <!-- スマホ用ナビゲーション -->
     <nav id="nav-sp">
-        <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
-        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+        <img id="close" src="assets/images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="assets/images/logo-sp.png" alt="トップページに戻る"></a>
         <a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display = 'none'">MISSION</a>
         <a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
         <a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display = 'none'">ABOUT US</a>
@@ -38,9 +40,9 @@
         <a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display = 'none'">COMPANY</a>
         <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
         <div id="sns">
-            <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
-            <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
-            <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+            <a href="https://www.facebook.com/sejuku2013"><img src="assets/images/button-facebook.png" alt="Facebookのリンク"></a>
+            <a href="https://twitter.com/samuraijuku"><img src="assets/images/button-twitter.png" alt="Twitterのリンク"></a>
+            <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="assets/images/button-youtube.png" alt="YouTubeのリンク"></a>
         </div>
     </nav>
   </header>
@@ -56,15 +58,15 @@
         <section id="mission-s2dgs">
             <h2 class="mission-h2">S2DGsの実現</h2>
             <p>国連の掲げる大中小169個の目標「SDGs」のうち、以下の5つの大目標の実現をミッションとします。</p>
-            <img src="images/mission/mission-s2dgs.png" alt="S2DGs">
+            <img src="assets/images/mission/mission-s2dgs.png" alt="S2DGs">
         </section>
         <section id="mission-5goals">
             <div>
-                <img id="s2dgs-image" src="images/mission/mission-5goals.png" alt="5Goals">
+                <img id="s2dgs-image" src="assets/images/mission/mission-5goals.png" alt="5Goals">
             </div>
             <div>
                 <div>
-                    <img class="fivegoals-image-left" src="images/mission/mission-5goals01.png" alt="PCを操作する女の子">
+                    <img class="fivegoals-image-left" src="assets/images/mission/mission-5goals01.png" alt="PCを操作する女の子">
                     <span class="fivegoals-number">01</span>
                     <h3 class="fivegoals-h3">貧困をなくそう</h3>
                     <p class="fivegoals-p">
@@ -73,7 +75,7 @@
                 </div>
         
                 <div>
-                    <img class="fivegoals-image-right" src="images/mission/mission-5goals02.png" alt="PCを見つめる小さい女の子">
+                    <img class="fivegoals-image-right" src="assets/images/mission/mission-5goals02.png" alt="PCを見つめる小さい女の子">
                     <span class="fivegoals-number">02</span>
                     <h3 class="fivegoals-h3">質の高い教育をみんなに</h3>
                     <p class="fivegoals-p">
@@ -82,7 +84,7 @@
                 </div>
         
                 <div>
-                    <img class="fivegoals-image-left" src="images/mission/mission-5goals03.png" alt="PCを操作する女性">
+                    <img class="fivegoals-image-left" src="assets/images/mission/mission-5goals03.png" alt="PCを操作する女性">
                     <span class="fivegoals-number">03</span>
                     <h3 class="fivegoals-h3">ジェンダー平等の実現</h3>
                     <p class="fivegoals-p">
@@ -91,7 +93,7 @@
                 </div>
         
                 <div>
-                    <img class="fivegoals-image-right" src="images/mission/mission-5goals04.png" alt="笑顔で話し合う3人の男女">
+                    <img class="fivegoals-image-right" src="assets/images/mission/mission-5goals04.png" alt="笑顔で話し合う3人の男女">
                     <span class="fivegoals-number">04</span>
                     <h3 class="fivegoals-h3">生産的で働きがいのある雇用</h3>
                     <p class="fivegoals-p">
@@ -100,7 +102,7 @@
                 </div>
         
                 <div>
-                    <img class="fivegoals-image-left" src="images/mission/mission-5goals05.png" alt="障害を持つ男性が生き生きと働く様子">
+                    <img class="fivegoals-image-left" src="assets/images/mission/mission-5goals05.png" alt="障害を持つ男性が生き生きと働く様子">
                     <span class="fivegoals-number">05</span>
                     <h3 class="fivegoals-h3">不平等をなくす</h3>
                     <p class="fivegoals-p">
@@ -112,7 +114,7 @@
     </article>
     <footer>
       <div id="footer-logo">
-        <img src="images/logo-sp.png" alt="SocialTech">
+        <img src="assets/images/logo-sp.png" alt="SocialTech">
       </div>
       <div id="footer-link">
         <a href="mission.html">MISSION</a>
@@ -123,9 +125,9 @@
         <a href="index.html#contact">CONTACT</a>
       </div>
       <div id="sns-footer">
-        <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
-        <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
-        <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+        <a href="https://www.facebook.com/sejuku2013"><img src="assets/images/button-facebook.png" alt="Facebookのリンク"></a>
+        <a href="https://twitter.com/samuraijuku"><img src="assets/images/button-twitter.png" alt="Twitterのリンク"></a>
+        <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="assets/images/button-youtube.png" alt="YouTubeのリンク"></a>
         <span id="copyright">&copy;2021 SocialTech, Inc. All Rights Reserved. </span>
       </div>
     </footer>
