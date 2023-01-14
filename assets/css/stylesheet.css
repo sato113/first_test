@@ -668,6 +668,36 @@ p {
     font-size: 28px;
     margin: 0;
   }
+  /*ページトップスクロール*/
+  .page_top{
+    position: fixed;
+    bottom: 13%;
+    right: 50px;
+    z-index: 100;
+  }
+  .page_top.top_hide {
+    display: none;
+  }
+  .page_top a {
+    color: #FFF;
+    background: none;
+    border: 0 none!important;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  .page_top a img{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .page_top a:hover {
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+  }
 }
 
 /*====================
@@ -1285,5 +1315,21 @@ p {
   .product-h3 {
     font-size: 28px;
     margin: 0;
+  }
+
+  .page_top{
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 100;
+  }
+  .page_top a {
+    color: #FFF;
+    background: none;
+    border: 0 none!important;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
   }
 }
